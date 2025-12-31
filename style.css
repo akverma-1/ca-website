@@ -47,6 +47,44 @@
 .nav-item a:hover{
     color: rgb(246, 200, 50);
 }
+/* counter */
+.counter-wrapper {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 20px;
+  font-family: sans-serif;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.counter-item {
+  text-align: center;
+  margin: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.counter-item h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #00d4ff; /* Accent color */
+}
+
+.counter-item p {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+
+
 
 /* for slider */
 
@@ -54,12 +92,13 @@
 
 
   .service-card {
-    border: none !important;
+    border-top: 5px solid  #59B2f4!important;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
     background: #fff;
     cursor: pointer;
-
+    border: none;
+    
   }
 
 
@@ -83,10 +122,10 @@
     transition: 0.3s;
   }
 
-  /* .service-card:hover .icon-box {
+  .service-card:hover .icon-box {
     background-color: #002147;
     color: #C5A059;
-  } */
+  }
 
   .section-title {
     font-weight: 700;
@@ -194,4 +233,34 @@
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 14px;
+}
+
+/* xtrra */
+
+.bg-navbar-custom {
+ 
+  background: rgba(26, 26, 26, 0.95);
+}
+
+.bg-white-translucent {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.text-light-muted {
+  color: #cbd5e1; /* Light grey text for dark bg */
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Container-fluid handles full width */
+#ABOUT {
+  min-height: 600px;
 }
